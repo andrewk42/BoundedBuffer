@@ -9,6 +9,11 @@
 #include <vector>
 
 template<typename T> class BoundedBuffer {
+    T *buffer;
+    unsigned int capacity, length, in_idx, out_idx;
+    uOwnerLock p_mlk, c_mlk; // mutex locks
+    uCondLock p_clk, c_clk; // condition locks
+
   public:
     BoundedBuffer(const unsigned int size = 10);
     ~BoundedBuffer();
@@ -37,12 +42,21 @@ _Monitor Printer {
 };
 
 _Task Producer {
+    BoundedBuffer<int> &buffer;
+    Printer &p;
+    unsigned int num_items, delay_bound;
+
     void main();
   public:
     Producer(BoundedBuffer<int> &buffer, Printer &p, const int Produce, const int Delay);
 };
 
 _Task Consumer {
+    BoundedBuffer<int> &buffer;
+    Printer &p;
+    uOwnerLock sum_mlk;
+    int delay_bound, sentinel, &sum;
+
     void main();
   public:
     Consumer(BoundedBuffer<int> &buffer, Printer &p, const int Delay, const int Sentinel, int &sum);

@@ -1,8 +1,8 @@
 /*
- * CS343 A3 BoundedBuffer (Q1) Implementation
+ * uC++ Concurrent BoundedBuffer Implementation
  *
  * Written by Andrew Klamut
- * Born October 20, 2011
+ * January, 2012
  */
 
 #include "uc_boundedbuffer.h"
@@ -42,16 +42,74 @@ bool convert(int &val, char *buffer) {      // convert C string to integer
  ****************************************************************************/
 
 template<typename T> BoundedBuffer<T>::BoundedBuffer(const unsigned int size) {
+    buffer = new T[size];
 
+    capacity = size;
+    length = in_idx = out_idx = 0;
 }
 
 template<typename T> BoundedBuffer<T>::~BoundedBuffer() {
+    delete buffer;
 }
 
 template<typename T> void BoundedBuffer<T>::insert(T elem) {
+#if defined(BUSY)
+    // Enter critical section
+    p_mlk.acquire();
+
+    while (length == capacity) {
+        // Block this task/reopen critical section if full
+        p_clk.wait(p_mlk);
+    }
+
+    // If here, back in locked critical section
+
+    // Perform assertion
+    assert(length <= capacity);
+
+    // Add element
+    buffer[in_idx++ % capacity] = elem;
+    length++;
+
+    // Tell the next consumer that there's an element, if someone is waiting
+    c_clk.signal();
+
+    // Leave critical section
+    p_mlk.release();
+#elif defined(NOBUSY)
+
+#endif
 }
 
 template<typename T> T BoundedBuffer<T>::remove() {
+#if defined(BUSY)
+    // Enter critical section
+    c_mlk.acquire();
+
+    while (length == 0) {
+        // Block this task/reopen critical section if empty
+        c_clk.wait(c_mlk);
+    }
+
+    // If here, back in locked critical section
+
+    // Perform assertion
+    assert(length > 0);
+
+    // Remove element
+    T elem = buffer[out_idx++ % capacity];
+    length--;
+
+    // Tell the next producer that there's room in the buffer, if someone is waiting
+    p_clk.signal();
+
+    // Leave critical section
+    c_mlk.release();
+
+    return elem;
+#elif defined(NOBUSY)
+
+#endif
 }
 
 
@@ -59,10 +117,20 @@ template<typename T> T BoundedBuffer<T>::remove() {
  * Task Producer
  ****************************************************************************/
 
-Producer::Producer(BoundedBuffer<int> &buffer, Printer &p, const int Produce, const int Delay) {
+Producer::Producer(BoundedBuffer<int> &buffer, Printer &p, const int Produce, const int Delay) : buffer(buffer), p(p) {
+    num_items = Produce;
+    delay_bound = Delay;
 }
 
 void Producer::main() {
+    // Produce specified amount of items
+    for (unsigned int i = 1; i <= num_items; i++) {
+        // Yield to simulate work
+        yield(rand() % delay_bound);
+
+        // Add item
+        buffer.insert(i);
+    }
 }
 
 
@@ -70,10 +138,29 @@ void Producer::main() {
  * Task Consumer
  ****************************************************************************/
 
-Consumer::Consumer(BoundedBuffer<int> &buffer, Printer &p, const int Delay, const int Sentinel, int &sum) {
+Consumer::Consumer(BoundedBuffer<int> &buffer, Printer &p, const int Delay, const int Sentinel, int &sum) : buffer(buffer), p(p), sum(sum) {
+    delay_bound = Delay;
+    sentinel = Sentinel;
 }
 
 void Consumer::main() {
+    int val = 0;
+
+    for (;;) {
+        // Yield to simulate work
+        yield(rand() % delay_bound);
+
+        // Take next value
+        val = buffer.remove();
+
+        // Check for exit signal
+        if (val == sentinel) break;
+
+        // Get exclusive access to shared sum variable and add to it
+        sum_mlk.acquire();
+        sum += val;
+        sum_mlk.release();
+    }
 }
 
 
@@ -230,6 +317,8 @@ void uMain::main() {
          << ", Produce=" << max_prod << ", BufferSize=" << buffer_size
          << ", Delay=" << delay_bound << endl;
 
+    cout << "Final sum should be " << (1 + max_prod)*(max_prod/2)*num_prods << endl;
+
     // Begin
     int sum = 0;
     vector<Producer*> p_list;
@@ -242,13 +331,13 @@ void uMain::main() {
     BoundedBuffer<int> *b = new BoundedBuffer<int>(buffer_size);
 
     // Create specified amount of producers
-    /*for (int i = 0; i < num_prods; i++) {
-        p_list.push_back(new Producer(*b, max_prod, delay_bound));
+    for (int i = 0; i < num_prods; i++) {
+        p_list.push_back(new Producer(*b, *p, max_prod, delay_bound));
     }
 
     // Create specified amount of consumers
     for (int i = 0; i < num_cons; i++) {
-        c_list.push_back(new Consumer(*b, delay_bound, -1, sum));
+        c_list.push_back(new Consumer(*b, *p, delay_bound, -1, sum));
     }
 
     // Wait for Producers to finish
@@ -266,7 +355,7 @@ void uMain::main() {
         delete *it;
     }
 
-    cout << "total: " << sum << endl;*/
+    cout << "total: " << sum << endl;
 
     // Cleanup
     delete b;
