@@ -359,19 +359,19 @@ void uMain::main() {
     vector<Consumer*> c_list;
 
     // Create the Printer
-    Printer *p = new Printer(num_prods, num_cons);
+    Printer *prt = new Printer(num_prods, num_cons);
 
     // Create the single buffer
     BoundedBuffer<int> *b = new BoundedBuffer<int>(buffer_size);
 
     // Create specified amount of producers
     for (int i = 0; i < num_prods; i++) {
-        p_list.push_back(new Producer(*b, *p, max_prod, delay_bound));
+        p_list.push_back(new Producer(*b, *prt, max_prod, delay_bound));
     }
 
     // Create specified amount of consumers
     for (int i = 0; i < num_cons; i++) {
-        c_list.push_back(new Consumer(*b, *p, delay_bound, -1, sum));
+        c_list.push_back(new Consumer(*b, *prt, delay_bound, -1, sum));
     }
 
     // Wait for Producers to finish
@@ -396,5 +396,5 @@ void uMain::main() {
 
     // Cleanup
     delete b;
-    delete p;
+    delete prt;
 }

@@ -4,7 +4,7 @@ OPT:=
 CXX = u++					                    # compiler
 CXXFLAGS = -g -Wall -Wno-unused-label -MMD ${OPT} -D"${KIND}" -D"IMPLTYPE_${TYPE}"
 ifeq (${MULTI}, ON)
-CXXFLAGS += -MULTI                              # allow for multi flag in make
+CXXFLAGS += -multi                              # allow for multi flag in make
 endif
 MAKEFILE_NAME = ${firstword ${MAKEFILE_LIST}}	# makefile name
 
