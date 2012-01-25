@@ -54,12 +54,15 @@ template<typename T> BoundedBuffer<T>::~BoundedBuffer() {
 
 template<typename T> void BoundedBuffer<T>::insert(T elem) {
 #if defined(BUSY)
-    // Enter critical section
-    p_mlk.acquire();
+    /* Protect this section from being accessed by multiple producers at once.
+     * Could have used a different mutex lock instead of sharing one with remove,
+     * but want to ensure that a producer/consumer cannot modify this.length at
+     * the same time. */
+    mlk.acquire();
 
     while (length == capacity) {
         // Block this task/reopen critical section if full
-        p_clk.wait(p_mlk);
+        p_clk.wait(mlk);
     }
 
     // If here, back in locked critical section
@@ -69,13 +72,13 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
 
     // Add element
     buffer[in_idx++ % capacity] = elem;
-    length++;
+    ++length; // Probably atomic on your platform, but I assume it isn't
 
     // Tell the next consumer that there's an element, if someone is waiting
     c_clk.signal();
 
     // Leave critical section
-    p_mlk.release();
+    mlk.release();
 #elif defined(NOBUSY)
 
 #endif
@@ -83,12 +86,15 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
 
 template<typename T> T BoundedBuffer<T>::remove() {
 #if defined(BUSY)
-    // Enter critical section
-    c_mlk.acquire();
+    /* Protect this section from being accessed by multiple consumers at once.
+     * Could have used a different mutex lock instead of sharing one with insert,
+     * but want to ensure that a producer/consumer cannot modify this.length at
+     * the same time. */
+    mlk.acquire();
 
     while (length == 0) {
         // Block this task/reopen critical section if empty
-        c_clk.wait(c_mlk);
+        c_clk.wait(mlk);
     }
 
     // If here, back in locked critical section
@@ -98,13 +104,13 @@ template<typename T> T BoundedBuffer<T>::remove() {
 
     // Remove element
     T elem = buffer[out_idx++ % capacity];
-    length--;
+    --length; // Probably atomic on your platform, but I assume it isn't
 
     // Tell the next producer that there's room in the buffer, if someone is waiting
     p_clk.signal();
 
     // Leave critical section
-    c_mlk.release();
+    mlk.release();
 
     return elem;
 #elif defined(NOBUSY)
@@ -124,6 +130,7 @@ Producer::Producer(BoundedBuffer<int> &buffer, Printer &p, const int Produce, co
 }
 
 void Producer::main() {
+    // Indicate starting
     p.print(Printer::Producer, id, 'S');
 
     // Produce specified amount of items
@@ -131,10 +138,17 @@ void Producer::main() {
         // Yield to simulate work
         yield(rand() % delay_bound);
 
+        // Indicate before adding value
+        p.print(Printer::Producer, id, 'B', i);
+
         // Add item
         buffer.insert(i);
+
+        // Indicate after adding value
+        p.print(Printer::Producer, id, 'A', i);
     }
 
+    // Indicate finishing
     p.print(Printer::Producer, id, 'F');
 }
 
@@ -152,14 +166,21 @@ Consumer::Consumer(BoundedBuffer<int> &buffer, Printer &p, const int Delay, cons
 void Consumer::main() {
     int val = 0;
 
+    // Indicate starting
     p.print(Printer::Consumer, id, 'S');
 
     for (;;) {
         // Yield to simulate work
         yield(rand() % delay_bound);
 
+        // Indicate before consumption
+        p.print(Printer::Consumer, id, 'B');
+
         // Take next value
         val = buffer.remove();
+
+        // Indicate after consumption, value consumed
+        p.print(Printer::Consumer, id, 'A', val);
 
         // Check for exit signal
         if (val == sentinel) break;
@@ -170,6 +191,7 @@ void Consumer::main() {
         sum_mlk.release();
     }
 
+    // Indicate finishing
     p.print(Printer::Consumer, id, 'F');
 }
 

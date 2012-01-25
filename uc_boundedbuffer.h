@@ -11,7 +11,7 @@
 template<typename T> class BoundedBuffer {
     T *buffer;
     unsigned int capacity, length, in_idx, out_idx;
-    uOwnerLock p_mlk, c_mlk; // mutex locks
+    uOwnerLock mlk; // mutex lock
     uCondLock p_clk, c_clk; // condition locks
 
   public:
