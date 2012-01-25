@@ -46,6 +46,10 @@ template<typename T> BoundedBuffer<T>::BoundedBuffer(const unsigned int size) {
 
     capacity = size;
     length = in_idx = out_idx = 0;
+
+#ifdef NOBUSY
+    barge_flag = false;
+#endif
 }
 
 template<typename T> BoundedBuffer<T>::~BoundedBuffer() {
@@ -80,7 +84,37 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
     // Leave critical section
     mlk.release();
 #elif defined(NOBUSY)
+    mlk.acquire();
 
+    if (barge_flag) {
+        b_clk.wait(mlk);
+        barge_flag = false;
+    }
+
+    if (length == capacity) {
+        if (!b_clk.empty()) {
+            barge_flag = true;
+            b_clk.signal();
+        }
+
+        p_clk.wait(mlk);
+        barge_flag = false;
+    }
+
+    assert(length <= capacity);
+
+    buffer[in_idx++ % capacity] = elem;
+    ++length;
+
+    barge_flag = true;
+
+    if (c_clk.empty()) {
+        b_clk.signal();
+    } else {
+        c_clk.signal();
+    }
+
+    mlk.release();
 #endif
 }
 
@@ -114,7 +148,39 @@ template<typename T> T BoundedBuffer<T>::remove() {
 
     return elem;
 #elif defined(NOBUSY)
+    mlk.acquire();
 
+    if (barge_flag) {
+        b_clk.wait(mlk);
+        barge_flag = false;
+    }
+
+    if (length == 0) {
+        if (!b_clk.empty()) {
+            barge_flag = true;
+            b_clk.signal();
+        }
+
+        c_clk.wait(mlk);
+        barge_flag = false;
+    }
+
+    assert(length > 0);
+
+    T elem = buffer[out_idx++ % capacity];
+    --length;
+
+    barge_flag = true;
+
+    if (p_clk.empty()) {
+        b_clk.signal();
+    } else {
+        p_clk.signal();
+    }
+
+    mlk.release();
+
+    return elem;
 #endif
 }
 

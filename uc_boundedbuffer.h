@@ -13,6 +13,10 @@ template<typename T> class BoundedBuffer {
     unsigned int capacity, length, in_idx, out_idx;
     uOwnerLock mlk; // mutex lock
     uCondLock p_clk, c_clk; // condition locks
+#ifdef NOBUSY
+    bool barge_flag;
+    uCondLock b_clk; // barge condition lock
+#endif
 
   public:
     BoundedBuffer(const unsigned int size = 10);
