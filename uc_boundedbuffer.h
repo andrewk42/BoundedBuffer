@@ -44,7 +44,8 @@ _Monitor Printer {
 _Task Producer {
     BoundedBuffer<int> &buffer;
     Printer &p;
-    unsigned int num_items, delay_bound;
+    unsigned int id, num_items, delay_bound;
+    static unsigned int count;
 
     void main();
   public:
@@ -55,9 +56,13 @@ _Task Consumer {
     BoundedBuffer<int> &buffer;
     Printer &p;
     uOwnerLock sum_mlk;
-    int delay_bound, sentinel, &sum;
+    int id, delay_bound, sentinel, &sum;
+    static unsigned int count;
 
     void main();
   public:
     Consumer(BoundedBuffer<int> &buffer, Printer &p, const int Delay, const int Sentinel, int &sum);
 };
+
+unsigned int Producer::count = 0;
+unsigned int Consumer::count = 0;

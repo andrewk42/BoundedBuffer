@@ -120,9 +120,12 @@ template<typename T> T BoundedBuffer<T>::remove() {
 Producer::Producer(BoundedBuffer<int> &buffer, Printer &p, const int Produce, const int Delay) : buffer(buffer), p(p) {
     num_items = Produce;
     delay_bound = Delay;
+    id = count++;
 }
 
 void Producer::main() {
+    p.print(Printer::Producer, id, 'S');
+
     // Produce specified amount of items
     for (unsigned int i = 1; i <= num_items; i++) {
         // Yield to simulate work
@@ -131,6 +134,8 @@ void Producer::main() {
         // Add item
         buffer.insert(i);
     }
+
+    p.print(Printer::Producer, id, 'F');
 }
 
 
@@ -141,10 +146,13 @@ void Producer::main() {
 Consumer::Consumer(BoundedBuffer<int> &buffer, Printer &p, const int Delay, const int Sentinel, int &sum) : buffer(buffer), p(p), sum(sum) {
     delay_bound = Delay;
     sentinel = Sentinel;
+    id = count++;
 }
 
 void Consumer::main() {
     int val = 0;
+
+    p.print(Printer::Consumer, id, 'S');
 
     for (;;) {
         // Yield to simulate work
@@ -161,6 +169,8 @@ void Consumer::main() {
         sum += val;
         sum_mlk.release();
     }
+
+    p.print(Printer::Consumer, id, 'F');
 }
 
 
@@ -317,8 +327,6 @@ void uMain::main() {
          << ", Produce=" << max_prod << ", BufferSize=" << buffer_size
          << ", Delay=" << delay_bound << endl;
 
-    cout << "Final sum should be " << (1 + max_prod)*(max_prod/2)*num_prods << endl;
-
     // Begin
     int sum = 0;
     vector<Producer*> p_list;
@@ -355,6 +363,9 @@ void uMain::main() {
         delete *it;
     }
 
+    int expected = (1 + max_prod)*(((double)max_prod)/2)*num_prods;
+
+    cout << "expected: " << expected << endl;
     cout << "total: " << sum << endl;
 
     // Cleanup
