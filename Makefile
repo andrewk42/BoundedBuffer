@@ -3,9 +3,12 @@ OPT:=
 
 CXX = u++					                    # compiler
 CXXFLAGS = -g -Wall -Wno-unused-label -MMD ${OPT} -D"${KIND}" -D"IMPLTYPE_${TYPE}"
+ifeq (${MULTI}, ON)
+CXXFLAGS += -MULTI                              # allow for multi flag in make
+endif
 MAKEFILE_NAME = ${firstword ${MAKEFILE_LIST}}	# makefile name
 
-OBJECTS = uc_boundedbuffer.o                   # object files forming 1st executable with prefix "q1"
+OBJECTS = uc_boundedbuffer.o                    # object files forming 1st executable with prefix "q1"
 EXEC = boundedBuffer
 
 DEPENDS = ${OBJECTS:.o=.d}			            # substitute ".o" with ".d"

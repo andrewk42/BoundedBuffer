@@ -282,6 +282,10 @@ void Printer::flush() {
 void uMain::main() {
     int num_cons = 5, num_prods = 3, max_prod = 10, buffer_size = 10, delay_bound = 0;
 
+#ifdef __U_MULTI__
+    uProcessor p[3] __attribute__(( unused )); // create 3 kernel thread for a total of 4
+#endif
+
     // Parse command line arguments
     switch (argc) {
       case 6:
