@@ -21,8 +21,8 @@ template<typename T> class BoundedBuffer {
   public:
     BoundedBuffer(const unsigned int size = 10);
     ~BoundedBuffer();
-    void insert(T);
-    T remove();
+    void insert(T, int);
+    T remove(int);
 };
 
 _Monitor Printer {

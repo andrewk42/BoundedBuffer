@@ -14,6 +14,8 @@
 using namespace std;
 
 
+Printer *prt;
+
 /*****************************************************************************
  * helper functions...
  ****************************************************************************/
@@ -56,7 +58,7 @@ template<typename T> BoundedBuffer<T>::~BoundedBuffer() {
     delete buffer;
 }
 
-template<typename T> void BoundedBuffer<T>::insert(T elem) {
+template<typename T> void BoundedBuffer<T>::insert(T elem, int id) {
 #if defined(BUSY)
     /* Protect this section from being accessed by multiple producers at once.
      * Could have used a different mutex lock instead of sharing one with remove,
@@ -87,7 +89,9 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
     mlk.acquire();
 
     if (barge_flag) {
+        if (id >= 0) prt->print(Printer::Producer, id, 'G');
         b_clk.wait(mlk);
+        if (id >= 0) prt->print(Printer::Producer, id, 'g');
         barge_flag = false;
     }
 
@@ -97,6 +101,7 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
             b_clk.signal();
         }
 
+        if (id >= 0) prt->print(Printer::Producer, id, 'W');
         p_clk.wait(mlk);
         barge_flag = false;
     }
@@ -106,11 +111,12 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
     buffer[in_idx++ % capacity] = elem;
     ++length;
 
-    barge_flag = true;
 
-    if (c_clk.empty()) {
+    if (!b_clk.empty()) {
+        barge_flag = true;
         b_clk.signal();
-    } else {
+    } else if (!c_clk.empty()) {
+        barge_flag = true;
         c_clk.signal();
     }
 
@@ -118,7 +124,7 @@ template<typename T> void BoundedBuffer<T>::insert(T elem) {
 #endif
 }
 
-template<typename T> T BoundedBuffer<T>::remove() {
+template<typename T> T BoundedBuffer<T>::remove(int id) {
 #if defined(BUSY)
     /* Protect this section from being accessed by multiple consumers at once.
      * Could have used a different mutex lock instead of sharing one with insert,
@@ -151,7 +157,9 @@ template<typename T> T BoundedBuffer<T>::remove() {
     mlk.acquire();
 
     if (barge_flag) {
+        prt->print(Printer::Consumer, id, 'G');
         b_clk.wait(mlk);
+        prt->print(Printer::Consumer, id, 'g');
         barge_flag = false;
     }
 
@@ -161,6 +169,7 @@ template<typename T> T BoundedBuffer<T>::remove() {
             b_clk.signal();
         }
 
+        prt->print(Printer::Consumer, id, 'W');
         c_clk.wait(mlk);
         barge_flag = false;
     }
@@ -170,11 +179,11 @@ template<typename T> T BoundedBuffer<T>::remove() {
     T elem = buffer[out_idx++ % capacity];
     --length;
 
-    barge_flag = true;
-
-    if (p_clk.empty()) {
+    if (!b_clk.empty()) {
+        barge_flag = true;
         b_clk.signal();
-    } else {
+    } else if (!p_clk.empty()) {
+        barge_flag = true;
         p_clk.signal();
     }
 
@@ -208,7 +217,7 @@ void Producer::main() {
         p.print(Printer::Producer, id, 'B', i);
 
         // Add item
-        buffer.insert(i);
+        buffer.insert(i, id);
 
         // Indicate after adding value
         p.print(Printer::Producer, id, 'A', i);
@@ -243,13 +252,13 @@ void Consumer::main() {
         p.print(Printer::Consumer, id, 'B');
 
         // Take next value
-        val = buffer.remove();
-
-        // Indicate after consumption, value consumed
-        p.print(Printer::Consumer, id, 'A', val);
+        val = buffer.remove(id);
 
         // Check for exit signal
         if (val == sentinel) break;
+
+        // Indicate after consumption, value consumed
+        p.print(Printer::Consumer, id, 'A', val);
 
         // Get exclusive access to shared sum variable and add to it
         sum_mlk.acquire();
@@ -425,7 +434,7 @@ void uMain::main() {
     vector<Consumer*> c_list;
 
     // Create the Printer
-    Printer *prt = new Printer(num_prods, num_cons);
+    prt = new Printer(num_prods, num_cons);
 
     // Create the single buffer
     BoundedBuffer<int> *b = new BoundedBuffer<int>(buffer_size);
@@ -447,7 +456,7 @@ void uMain::main() {
 
     // Send a sentinel value for every consumer that should finish
     for (vector<Consumer*>::iterator it = c_list.begin(); it != c_list.end(); it++) {
-        b->insert(-1);
+        b->insert(-1, -1);
     }
 
     // Wait for Consumers to finish
