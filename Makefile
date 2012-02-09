@@ -6,6 +6,9 @@ CXXFLAGS = -g -Wall -Wno-unused-label -MMD ${OPT} -D"${KIND}" -D"IMPLTYPE_${TYPE
 ifeq (${MULTI}, ON)
 CXXFLAGS += -multi                              # allow for multi flag in make
 endif
+ifeq (${OUT}, OFF)
+CXXFLAGS += -D"NO_OUT"                           
+endif
 MAKEFILE_NAME = ${firstword ${MAKEFILE_LIST}}	# makefile name
 
 OBJECTS = uc_boundedbuffer.o                    # object files forming 1st executable with prefix "q1"

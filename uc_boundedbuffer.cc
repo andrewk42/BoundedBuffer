@@ -86,8 +86,13 @@ template<typename T> void BoundedBuffer<T>::insert(T elem, int id) {
     // Leave critical section
     mlk.release();
 #elif defined(NOBUSY)
+    // Acquire buffer lock as in BUSY
     mlk.acquire();
 
+    /* If barge_flag is set, then another producer or consumer has been
+     * signalled and it is their turn to access the buffer. If this task
+     * was selected by the OS before them, it will wait in a separate buffer
+     * until they complete their turn */
     if (barge_flag) {
         if (id >= 0) prt->print(Printer::Producer, id, 'G');
         b_clk.wait(mlk);
@@ -111,13 +116,12 @@ template<typename T> void BoundedBuffer<T>::insert(T elem, int id) {
     buffer[in_idx++ % capacity] = elem;
     ++length;
 
-
-    if (!b_clk.empty()) {
-        barge_flag = true;
-        b_clk.signal();
-    } else if (!c_clk.empty()) {
+    if (!c_clk.empty()) {
         barge_flag = true;
         c_clk.signal();
+    } else if (!b_clk.empty()) {
+        barge_flag = true;
+        b_clk.signal();
     }
 
     mlk.release();
@@ -179,12 +183,12 @@ template<typename T> T BoundedBuffer<T>::remove(int id) {
     T elem = buffer[out_idx++ % capacity];
     --length;
 
-    if (!b_clk.empty()) {
-        barge_flag = true;
-        b_clk.signal();
-    } else if (!p_clk.empty()) {
+    if (!p_clk.empty()) {
         barge_flag = true;
         p_clk.signal();
+    } else if (!b_clk.empty()) {
+        barge_flag = true;
+        b_clk.signal();
     }
 
     mlk.release();
@@ -286,6 +290,7 @@ Printer::Printer(unsigned int numProducers, unsigned int numConsumers) {
         buffer.push_back(BufferSlot());
     }
 
+#ifndef NO_OUT
     // Print table headers
     for (i = 0; i < numProducers; i++) cout << "Prod:" << i << '\t';
     for (i = 0; i < numConsumers; i++) cout << "Cons:" << i << '\t';
@@ -294,6 +299,7 @@ Printer::Printer(unsigned int numProducers, unsigned int numConsumers) {
     // Print table header underlines
     for (i = 0; i < numProducers + numConsumers - 1; i++) cout << "*******\t";
     cout << "*******" << endl;
+#endif
 }
 
 void Printer::print(Kind kind, unsigned int lid, char state) {
@@ -321,6 +327,7 @@ void Printer::realPrint(unsigned int id, char state, int value) {
 
     // Check if this is the finish state, special case
     if (state == 'F') {
+#ifndef NO_OUT
         for (unsigned int i = 0; i < buffer.size(); i++) {
             // Print 'F' for the finished item, "..." for the rest
             if (i == id) cout << 'F';
@@ -330,6 +337,7 @@ void Printer::realPrint(unsigned int id, char state, int value) {
         }
 
         cout << endl;
+#endif
 
         clearSlot(id);
 
@@ -352,10 +360,13 @@ void Printer::flush() {
     for (unsigned int i = 0; i < buffer.size(); i++) {
         // Skip this item if it is empty
         if (buffer[i].state == '\0') {
+#ifndef NO_OUT
             cout << '\t';
+#endif
             continue;
         }
 
+#ifndef NO_OUT
         cout << buffer[i].state;
 
         // Print non-empty arguments
@@ -363,12 +374,15 @@ void Printer::flush() {
 
         // Print the tab if not the last column
         if (i != buffer.size()-1) cout << '\t';
+#endif
 
         // Reset this item now that we've printed
         clearSlot(i);
     }
 
+#ifndef NO_OUT
     cout << endl;
+#endif
 }
 
 
@@ -423,10 +437,12 @@ void uMain::main() {
     // If Delay was not specified compute it now
     if (delay_bound == 0) delay_bound = num_cons + num_prods;
 
+#ifndef NO_OUT
     // for testing
     cout << "Cons=" << num_cons << ", Prods=" << num_prods
          << ", Produce=" << max_prod << ", BufferSize=" << buffer_size
          << ", Delay=" << delay_bound << endl;
+#endif
 
     // Begin
     int sum = 0;
