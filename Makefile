@@ -1,12 +1,12 @@
-KIND:=NOBUSY
+KIND:=NOBUSY                                    # KIND=BUSY->busy-wait (default), KIND=NOBUSY->no busy-wait
 OPT:=
 
 CXX = u++					                    # compiler
 CXXFLAGS = -g -Wall -Wno-unused-label -MMD ${OPT} -D"${KIND}" -D"IMPLTYPE_${TYPE}"
-ifeq (${MULTI}, ON)
+ifeq (${MULTI}, ON)                             # MULTI=ON->use multiprocessors, default->uniprocessor with only user threads
 CXXFLAGS += -multi                              # allow for multi flag in make
 endif
-ifeq (${OUT}, OFF)
+ifeq (${OUT}, OFF)                              # OUT=OFF->Turn off Producer/Consumer print statements, default->on
 CXXFLAGS += -D"NO_OUT"                           
 endif
 MAKEFILE_NAME = ${firstword ${MAKEFILE_LIST}}	# makefile name

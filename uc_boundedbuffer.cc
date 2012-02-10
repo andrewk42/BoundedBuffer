@@ -14,8 +14,6 @@
 using namespace std;
 
 
-Printer *prt;
-
 /*****************************************************************************
  * helper functions...
  ****************************************************************************/
@@ -91,23 +89,28 @@ template<typename T> void BoundedBuffer<T>::insert(T elem, int id) {
 
     /* If barge_flag is set, then another producer or consumer has been
      * signalled and it is their turn to access the buffer. If this task
-     * was selected by the OS before them, it will wait in a separate buffer
+     * is selected by the OS before them, it will wait in a separate buffer
      * until they complete their turn */
     if (barge_flag) {
-        if (id >= 0) prt->print(Printer::Producer, id, 'G');
         b_clk.wait(mlk);
-        if (id >= 0) prt->print(Printer::Producer, id, 'g');
+
+        // Clear the barge flag after leaving a cond lock
         barge_flag = false;
     }
 
     if (length == capacity) {
         if (!b_clk.empty()) {
+            // Set the barge flag before signalling a task
             barge_flag = true;
+
+            /* If about to wait due to full buffer, signal a potential
+             * consumer waiting in the barge queue */
             b_clk.signal();
         }
 
-        if (id >= 0) prt->print(Printer::Producer, id, 'W');
         p_clk.wait(mlk);
+
+        // Clear the barge flag after leaving a cond lock
         barge_flag = false;
     }
 
@@ -116,10 +119,13 @@ template<typename T> void BoundedBuffer<T>::insert(T elem, int id) {
     buffer[in_idx++ % capacity] = elem;
     ++length;
 
+    // Give priority to normal queues, then the barge queue
     if (!c_clk.empty()) {
+        // Set the barge flag before signalling a task
         barge_flag = true;
         c_clk.signal();
     } else if (!b_clk.empty()) {
+        // Set the barge flag before signalling a task
         barge_flag = true;
         b_clk.signal();
     }
@@ -161,20 +167,25 @@ template<typename T> T BoundedBuffer<T>::remove(int id) {
     mlk.acquire();
 
     if (barge_flag) {
-        prt->print(Printer::Consumer, id, 'G');
         b_clk.wait(mlk);
-        prt->print(Printer::Consumer, id, 'g');
+
+        // Clear the barge flag after leaving a cond lock
         barge_flag = false;
     }
 
     if (length == 0) {
         if (!b_clk.empty()) {
+            // Set the barge flag before signalling a task
             barge_flag = true;
+
+            /* If about to wait due to empty buffer, signal a potential
+             * producer if someone is waiting in the barge queue */
             b_clk.signal();
         }
 
-        prt->print(Printer::Consumer, id, 'W');
         c_clk.wait(mlk);
+
+        // Clear the barge flag after leaving a cond lock
         barge_flag = false;
     }
 
@@ -184,9 +195,11 @@ template<typename T> T BoundedBuffer<T>::remove(int id) {
     --length;
 
     if (!p_clk.empty()) {
+        // Set the barge flag before signalling a task
         barge_flag = true;
         p_clk.signal();
     } else if (!b_clk.empty()) {
+        // Set the barge flag before signalling a task
         barge_flag = true;
         b_clk.signal();
     }
@@ -195,6 +208,8 @@ template<typename T> T BoundedBuffer<T>::remove(int id) {
 
     return elem;
 #endif
+            /* If about to wait due to full buffer, signal a potential
+             * consumer waiting in the barge queue */
 }
 
 
@@ -450,7 +465,7 @@ void uMain::main() {
     vector<Consumer*> c_list;
 
     // Create the Printer
-    prt = new Printer(num_prods, num_cons);
+    Printer *prt = new Printer(num_prods, num_cons);
 
     // Create the single buffer
     BoundedBuffer<int> *b = new BoundedBuffer<int>(buffer_size);

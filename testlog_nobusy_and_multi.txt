@@ -1,0 +1,7523 @@
+Test log for BoundedBuffer test.py run at time: 2012-02-10 00:33:30.909733
+Parameters used: NUM_TESTS=2500, ALLOW_REPEATS=False, CON_BOUND=500, PROD_BOUND=500, AMNT_BOUND=7, SIZE_BOUND=7
+
+
+****** Testing ./boundedBuffer 201 36 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 235 193 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 339 209 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 306 487 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 41 217 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 195 255 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 356 375 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 409 436 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 77 232 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 251 442 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 138 119 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 445 31 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 357 11 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 167 423 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 401 347 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 261 259 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 408 171 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 427 33 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 56 474 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 490 154 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 344 326 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 468 400 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 440 315 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 472 453 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 9 32 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 265 265 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 210 415 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 390 395 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 131 35 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 433 301 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 149 36 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 378 104 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 302 252 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 291 288 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 455 166 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 497 403 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 132 201 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 472 406 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 199 476 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 50 229 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 405 281 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 90 485 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 491 211 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 302 105 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 169 131 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 354 227 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 305 70 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 347 389 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 372 302 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 6 218 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 221 25 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 129 166 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 36 11 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 302 7 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 340 443 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 414 193 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 289 339 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 153 23 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 312 349 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 246 450 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 318 382 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 287 139 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 352 13 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 456 21 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 388 450 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 377 346 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 420 426 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 438 358 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 133 433 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 134 251 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 80 233 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 281 201 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 332 419 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 175 254 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 324 95 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 147 443 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 324 461 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 466 169 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 161 440 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 490 473 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 126 106 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 4 428 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 196 247 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 306 326 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 165 94 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 450 357 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 397 391 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 302 8 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 278 102 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 252 24 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 251 158 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 167 260 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 65 373 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 361 137 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 212 61 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 119 248 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 215 386 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 424 195 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 214 215 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 285 6 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 464 478 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 49 330 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 290 486 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 40 387 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 363 241 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 443 473 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 173 192 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 283 408 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 398 218 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 89 66 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 45 399 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 441 277 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 294 430 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 55 143 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 136 95 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 194 440 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 109 343 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 21 248 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 27 452 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 410 333 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 192 31 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 218 153 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 40 103 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 168 130 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 378 257 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 447 182 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 9 432 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 64 394 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 93 115 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 250 276 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 356 285 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 111 146 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 407 204 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 258 172 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 302 331 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 50 446 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 336 304 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 81 415 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 459 442 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 33 454 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 165 339 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 47 494 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 382 325 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 424 272 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 163 238 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 72 268 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 457 260 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 463 103 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 131 362 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 5 97 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 280 431 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 450 301 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 20 259 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 236 253 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 366 42 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 170 117 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 72 170 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 179 253 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 338 260 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 7 295 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 46 384 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 69 443 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 419 366 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 352 32 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 153 397 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 211 170 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 188 408 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 160 333 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 202 484 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 327 141 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 196 280 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 427 135 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 481 372 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 381 423 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 153 307 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 158 321 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 148 75 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 43 337 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 342 347 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 299 232 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 252 141 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 199 64 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 406 116 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 176 496 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 452 291 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 205 150 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 381 72 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 56 334 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 376 411 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 180 324 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 423 394 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 101 52 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 282 192 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 370 441 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 8 343 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 205 370 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 148 295 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 53 450 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 4 232 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 26 105 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 465 386 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 30 422 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 413 401 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 276 444 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 20 414 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 419 194 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 393 321 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 193 8 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 360 214 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 459 391 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 97 380 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 454 426 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 91 436 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 149 123 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 199 196 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 468 295 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 481 406 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 2 100 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 272 67 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 86 369 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 77 145 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 453 437 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 487 120 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 246 343 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 133 300 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 1 39 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 43 192 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 168 498 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 395 230 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 409 197 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 425 60 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 34 168 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 426 80 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 199 141 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 380 193 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 14 477 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 155 180 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 429 31 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 409 473 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 372 322 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 315 265 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 487 223 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 98 138 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 244 410 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 234 446 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 147 441 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 342 240 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 318 81 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 203 336 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 102 99 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 318 139 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 389 146 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 276 413 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 471 160 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 387 51 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 326 243 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 401 158 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 10 182 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 497 214 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 180 396 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 233 102 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 58 305 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 91 223 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 463 6 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 273 329 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 167 433 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 379 149 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 286 201 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 225 120 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 336 49 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 490 105 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 257 31 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 340 36 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 84 17 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 191 161 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 78 101 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 387 311 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 432 283 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 38 295 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 50 339 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 307 237 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 434 298 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 3 356 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 193 395 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 428 164 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 446 271 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 324 16 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 428 82 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 294 145 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 78 452 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 301 329 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 188 243 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 197 301 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 398 203 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 287 369 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 469 486 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 82 288 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 299 277 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 271 166 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 203 228 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 181 433 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 438 406 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 39 112 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 472 291 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 235 305 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 352 414 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 179 481 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 96 308 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 380 359 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 129 78 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 305 366 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 230 166 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 218 449 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 268 64 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 202 462 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 339 14 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 96 30 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 9 22 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 122 455 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 434 108 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 477 494 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 348 100 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 63 46 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 117 23 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 382 17 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 90 37 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 137 440 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 484 321 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 493 16 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 24 76 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 214 95 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 138 333 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 223 306 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 331 452 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 253 235 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 390 17 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 124 216 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 402 319 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 268 230 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 255 424 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 372 378 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 396 220 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 158 168 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 376 381 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 327 104 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 212 353 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 131 202 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 15 356 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 196 29 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 109 349 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 320 498 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 313 292 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 80 477 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 286 18 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 312 470 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 202 177 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 414 105 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 393 15 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 290 145 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 292 201 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 427 297 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 11 347 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 185 18 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 33 22 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 281 300 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 16 304 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 36 478 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 430 242 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 67 492 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 262 36 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 38 177 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 304 177 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 414 51 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 68 159 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 275 20 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 306 236 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 14 382 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 88 95 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 370 40 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 469 406 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 312 302 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 297 299 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 77 132 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 9 315 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 152 337 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 378 137 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 229 132 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 231 8 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 300 342 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 450 291 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 169 351 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 248 92 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 459 294 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 180 154 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 372 77 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 42 60 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 152 148 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 75 245 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 457 322 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 150 57 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 368 379 5 5 ******
+FAIL: Program did not produce proper result... Output was:
+expected: 5685
+total: 5647
+
+****** Testing ./boundedBuffer 439 205 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 28 260 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 486 34 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 52 474 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 479 454 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 362 468 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 268 333 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 124 25 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 69 115 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 223 15 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 272 451 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 496 474 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 476 424 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 168 478 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 127 484 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 393 43 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 67 187 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 213 350 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 59 251 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 75 151 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 88 190 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 321 109 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 271 279 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 179 270 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 5 354 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 11 483 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 78 68 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 83 55 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 212 350 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 9 71 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 35 53 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 186 337 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 334 34 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 421 237 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 357 13 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 412 421 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 41 159 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 255 213 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 230 286 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 195 25 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 159 326 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 452 202 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 263 429 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 121 109 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 146 313 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 195 253 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 276 212 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 48 428 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 321 484 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 323 499 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 308 290 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 293 424 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 459 385 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 198 326 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 147 413 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 437 283 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 168 492 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 493 180 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 271 43 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 94 35 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 229 256 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 322 315 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 430 121 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 436 142 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 382 309 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 244 379 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 214 346 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 282 130 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 88 85 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 441 476 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 68 449 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 469 87 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 169 313 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 138 410 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 449 470 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 459 6 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 424 355 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 329 413 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 125 256 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 212 100 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 412 230 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 191 63 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 165 127 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 226 351 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 31 225 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 451 413 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 419 406 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 317 268 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 393 203 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 349 476 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 79 371 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 497 204 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 314 227 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 159 436 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 324 320 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 170 68 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 305 66 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 321 377 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 433 123 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 259 253 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 402 258 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 379 443 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 485 334 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 458 168 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 109 258 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 93 329 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 340 12 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 91 283 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 102 159 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 208 172 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 242 391 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 75 342 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 79 422 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 411 446 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 427 282 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 470 49 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 95 202 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 460 131 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 332 127 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 286 141 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 496 281 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 61 378 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 20 41 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 210 153 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 110 301 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 96 414 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 337 402 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 322 344 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 198 321 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 391 336 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 292 484 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 68 292 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 389 249 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 182 60 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 23 424 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 82 436 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 92 189 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 195 107 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 374 54 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 491 486 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 308 42 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 341 359 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 116 456 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 346 229 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 299 230 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 397 450 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 394 42 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 254 468 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 37 58 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 316 433 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 339 160 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 275 498 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 435 106 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 218 163 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 322 14 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 126 88 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 270 60 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 433 226 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 14 279 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 148 397 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 385 242 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 423 317 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 456 432 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 306 149 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 467 323 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 85 406 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 277 205 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 175 411 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 33 300 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 358 61 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 480 235 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 40 16 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 89 192 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 133 409 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 91 419 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 454 403 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 159 192 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 115 211 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 360 28 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 243 414 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 479 488 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 352 115 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 426 423 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 188 130 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 232 306 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 274 102 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 297 202 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 89 97 2 4 ******
+FAIL: Program did not produce proper result... Output was:
+expected: 291
+total: 159
+
+****** Testing ./boundedBuffer 113 177 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 72 172 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 442 103 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 353 245 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 485 360 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 224 67 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 149 330 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 458 398 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 252 208 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 70 36 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 381 272 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 99 26 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 16 348 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 142 395 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 83 398 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 50 272 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 404 98 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 140 59 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 453 134 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 322 357 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 492 480 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 264 154 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 113 337 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 69 60 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 147 82 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 157 322 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 276 32 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 246 261 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 484 132 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 212 86 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 342 467 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 185 314 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 486 206 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 374 351 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 451 301 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 50 87 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 342 469 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 396 289 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 488 13 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 8 67 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 12 342 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 307 361 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 192 235 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 58 238 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 73 367 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 293 140 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 152 260 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 342 21 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 52 260 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 341 377 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 457 113 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 481 364 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 128 189 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 320 148 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 476 110 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 497 207 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 374 78 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 87 433 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 291 340 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 369 389 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 318 47 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 460 199 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 134 338 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 149 52 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 83 255 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 464 311 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 283 83 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 384 32 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 226 150 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 12 67 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 167 316 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 381 232 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 164 161 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 89 166 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 10 140 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 86 139 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 483 381 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 387 50 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 158 73 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 468 76 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 302 249 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 192 282 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 254 304 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 400 344 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 64 286 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 461 131 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 354 381 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 257 488 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 87 162 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 156 436 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 154 360 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 58 151 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 32 100 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 251 102 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 409 77 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 213 267 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 442 179 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 85 89 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 359 370 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 212 334 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 94 47 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 477 257 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 344 88 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 200 207 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 258 343 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 362 314 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 20 334 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 262 327 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 197 170 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 200 476 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 247 170 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 373 488 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 148 122 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 300 20 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 336 337 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 139 376 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 481 365 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 222 76 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 195 387 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 117 357 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 114 425 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 297 480 4 6 ******
+FAIL: Program did not produce proper result... Output was:
+expected: 4800
+total: 4793
+
+****** Testing ./boundedBuffer 243 314 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 96 48 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 103 217 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 446 219 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 290 409 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 175 324 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 11 255 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 199 226 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 173 29 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 376 20 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 177 356 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 24 40 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 372 39 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 281 176 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 60 9 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 194 168 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 390 25 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 427 448 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 325 357 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 23 406 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 217 46 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 230 94 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 401 241 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 117 398 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 473 281 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 261 464 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 151 430 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 483 167 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 245 77 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 173 129 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 398 187 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 196 391 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 243 444 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 86 499 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 304 66 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 99 282 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 321 170 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 353 149 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 317 100 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 9 384 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 481 394 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 480 332 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 156 179 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 269 402 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 206 370 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 138 309 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 350 95 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 465 361 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 319 173 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 179 492 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 229 28 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 401 372 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 418 328 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 322 323 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 135 292 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 147 9 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 203 231 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 145 146 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 164 297 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 21 18 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 282 179 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 133 21 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 55 115 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 21 73 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 419 144 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 30 443 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 192 162 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 235 333 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 228 426 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 138 164 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 342 346 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 34 366 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 345 222 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 62 169 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 246 40 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 431 68 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 169 109 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 292 18 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 50 173 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 387 252 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 462 220 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 464 70 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 186 270 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 301 170 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 42 92 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 466 206 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 302 127 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 382 254 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 206 493 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 100 355 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 86 480 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 98 96 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 422 402 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 116 160 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 160 414 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 101 184 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 304 255 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 13 110 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 253 29 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 280 351 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 120 450 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 368 115 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 418 200 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 41 479 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 106 338 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 228 440 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 421 453 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 327 217 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 100 286 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 467 101 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 375 370 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 327 398 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 89 168 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 316 495 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 376 314 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 151 101 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 8 54 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 438 314 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 292 48 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 472 141 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 300 256 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 79 426 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 177 212 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 119 456 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 491 204 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 267 166 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 424 39 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 227 138 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 116 194 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 267 383 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 375 140 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 79 31 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 121 264 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 107 174 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 372 379 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 376 270 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 92 407 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 469 96 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 331 241 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 235 219 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 169 487 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 381 154 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 105 299 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 19 382 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 283 343 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 108 380 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 358 286 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 251 368 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 227 253 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 74 420 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 378 116 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 168 498 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 490 49 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 190 104 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 109 109 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 453 225 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 113 37 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 394 412 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 462 103 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 115 494 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 260 421 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 432 163 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 482 424 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 133 16 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 431 439 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 331 406 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 149 369 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 204 340 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 424 213 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 43 467 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 433 257 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 9 353 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 103 14 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 396 229 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 176 228 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 28 339 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 53 221 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 335 79 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 442 353 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 297 485 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 269 71 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 146 191 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 107 393 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 168 147 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 329 346 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 181 408 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 287 246 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 432 148 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 470 115 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 122 54 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 104 37 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 204 427 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 314 63 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 299 381 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 203 195 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 219 380 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 267 201 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 413 177 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 485 255 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 319 130 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 84 33 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 327 119 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 250 346 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 370 18 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 264 350 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 57 451 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 376 151 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 324 192 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 407 124 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 330 154 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 398 319 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 91 251 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 12 221 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 343 98 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 74 232 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 283 179 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 475 110 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 457 201 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 286 167 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 171 264 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 66 251 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 100 241 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 288 132 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 369 348 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 96 22 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 96 180 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 36 205 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 275 237 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 361 418 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 102 19 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 170 183 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 156 435 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 225 219 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 71 223 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 43 417 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 99 445 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 440 323 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 420 197 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 207 210 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 30 325 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 259 1 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 436 337 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 309 224 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 168 95 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 357 271 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 439 61 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 121 400 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 468 77 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 482 244 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 49 490 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 24 347 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 357 154 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 396 52 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 322 126 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 164 446 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 112 280 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 490 88 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 265 158 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 89 197 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 259 25 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 386 97 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 429 289 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 66 317 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 251 350 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 23 120 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 37 188 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 158 367 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 66 191 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 452 18 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 87 236 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 446 363 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 418 190 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 98 94 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 12 181 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 138 208 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 364 135 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 490 56 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 296 219 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 194 354 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 26 77 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 496 117 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 312 445 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 315 487 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 145 262 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 312 253 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 462 297 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 52 250 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 67 487 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 351 455 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 42 4 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 112 456 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 255 137 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 354 494 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 402 291 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 191 172 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 106 252 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 289 402 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 447 267 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 136 453 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 204 479 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 419 479 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 327 427 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 274 10 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 42 275 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 43 303 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 37 126 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 452 219 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 240 183 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 298 44 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 368 113 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 189 210 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 372 402 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 274 79 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 98 206 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 451 76 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 372 67 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 272 122 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 88 52 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 79 39 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 294 378 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 241 60 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 28 62 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 141 43 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 171 195 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 263 374 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 27 63 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 426 250 4 3 ******
+FAIL: Program terminated abnormally... Output was:
+uC++ Runtime error (UNIX pid:17962) Attempt to execute code at location 0x7fd0a77cce09.
+Possible cause is stack corruption.
+Error occurred while executing task uMain (0x7fffbf673300).
+
+****** Testing ./boundedBuffer 278 360 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 39 424 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 422 103 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 141 136 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 485 12 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 190 408 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 187 8 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 491 200 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 126 472 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 139 438 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 385 410 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 140 349 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 285 486 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 72 364 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 84 471 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 81 195 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 96 494 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 146 59 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 188 94 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 383 183 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 471 97 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 225 226 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 108 201 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 65 128 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 102 162 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 146 409 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 386 292 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 315 83 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 163 495 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 480 373 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 119 398 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 168 128 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 444 327 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 270 328 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 385 9 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 213 427 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 241 216 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 259 263 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 174 270 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 100 219 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 24 242 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 352 108 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 422 180 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 208 229 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 122 408 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 151 2 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 58 482 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 114 470 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 237 302 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 220 485 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 188 304 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 434 468 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 132 75 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 277 260 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 399 297 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 230 194 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 390 250 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 22 75 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 246 379 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 260 317 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 460 183 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 248 50 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 210 447 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 409 358 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 357 442 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 255 288 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 442 283 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 85 451 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 444 184 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 56 230 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 291 147 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 478 308 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 392 240 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 4 269 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 324 3 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 280 379 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 357 472 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 191 440 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 147 252 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 109 400 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 387 258 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 311 257 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 64 368 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 136 309 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 139 100 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 49 28 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 95 8 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 229 285 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 284 462 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 361 262 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 104 472 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 83 15 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 66 56 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 314 398 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 158 336 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 266 353 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 366 234 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 4 161 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 7 20 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 205 488 1 5 ******
+FAIL: Program did not produce proper result... Output was:
+expected: 488
+total: 487
+
+****** Testing ./boundedBuffer 16 201 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 411 346 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 488 456 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 372 81 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 477 34 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 232 25 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 219 317 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 204 457 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 361 51 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 158 455 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 334 20 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 293 408 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 75 167 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 178 308 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 411 270 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 171 149 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 319 402 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 294 157 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 68 403 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 41 257 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 237 385 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 14 62 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 208 425 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 308 70 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 233 163 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 94 33 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 340 260 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 427 223 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 177 344 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 256 322 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 360 281 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 68 463 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 61 112 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 41 244 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 275 274 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 330 267 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 333 324 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 128 152 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 265 254 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 382 442 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 417 129 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 367 44 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 224 334 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 234 187 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 62 80 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 90 12 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 446 433 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 17 433 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 138 335 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 125 120 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 59 244 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 61 198 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 52 194 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 227 157 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 131 239 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 384 163 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 310 168 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 73 150 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 243 7 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 401 240 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 265 362 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 43 100 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 97 22 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 13 395 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 139 111 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 265 107 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 211 437 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 418 258 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 144 166 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 289 372 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 453 159 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 466 489 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 158 46 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 477 446 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 160 389 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 71 353 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 253 254 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 232 206 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 49 59 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 119 100 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 266 70 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 482 59 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 180 125 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 167 127 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 42 88 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 167 331 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 444 312 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 410 445 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 122 53 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 140 483 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 494 200 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 272 402 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 34 39 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 145 131 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 94 383 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 316 265 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 339 437 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 422 95 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 67 493 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 154 489 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 406 69 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 141 74 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 446 128 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 153 404 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 358 370 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 300 56 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 78 93 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 300 48 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 449 357 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 327 254 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 1 383 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 464 198 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 14 466 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 267 143 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 330 369 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 424 123 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 30 22 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 472 19 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 143 154 3 2 ******
+FAIL: Program terminated abnormally... Output was:
+uC++ Runtime error (UNIX pid:19300) Attempt to execute code at location 0x7f103ff7be09.
+Possible cause is stack corruption.
+Error occurred while executing task uMain (0x7fffa156f800).
+
+****** Testing ./boundedBuffer 171 72 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 161 401 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 409 378 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 488 278 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 28 57 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 182 256 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 291 383 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 163 115 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 148 17 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 118 475 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 433 427 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 432 183 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 475 425 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 436 285 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 298 216 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 451 34 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 281 310 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 85 113 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 335 433 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 462 462 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 233 274 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 476 55 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 229 72 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 64 227 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 227 285 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 17 100 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 143 382 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 376 31 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 78 297 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 444 59 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 120 493 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 175 53 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 212 495 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 221 85 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 367 72 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 413 389 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 255 173 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 320 69 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 356 147 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 261 150 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 33 448 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 86 81 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 448 298 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 56 285 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 217 9 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 48 172 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 283 143 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 123 288 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 82 67 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 292 241 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 81 34 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 417 352 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 22 214 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 462 426 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 222 107 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 52 220 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 460 158 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 462 83 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 11 1 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 184 408 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 172 354 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 275 164 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 467 223 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 383 169 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 178 329 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 66 186 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 26 198 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 60 402 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 120 190 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 189 195 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 83 41 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 56 456 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 481 425 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 437 1 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 140 488 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 71 482 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 53 311 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 281 346 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 50 196 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 31 65 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 96 405 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 473 17 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 51 257 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 123 330 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 34 381 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 281 19 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 427 330 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 338 140 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 101 352 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 242 74 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 408 151 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 486 394 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 487 316 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 32 469 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 219 438 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 288 450 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 338 301 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 462 378 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 419 186 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 12 269 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 469 79 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 402 349 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 339 279 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 200 459 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 95 87 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 106 60 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 455 395 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 369 123 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 469 59 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 15 189 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 210 325 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 414 76 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 378 478 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 42 481 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 350 273 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 210 316 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 339 263 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 496 204 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 133 271 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 469 203 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 68 477 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 97 255 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 126 93 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 415 435 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 292 416 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 133 464 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 65 248 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 17 82 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 194 164 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 205 48 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 428 58 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 450 432 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 44 272 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 394 435 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 98 453 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 106 490 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 147 366 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 306 124 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 453 259 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 270 103 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 217 427 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 104 6 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 206 165 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 399 97 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 353 82 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 427 223 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 106 48 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 377 296 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 233 238 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 465 174 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 374 88 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 360 163 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 20 155 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 54 171 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 191 244 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 267 218 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 72 345 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 111 461 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 112 180 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 25 334 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 78 39 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 446 35 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 493 173 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 394 465 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 417 150 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 384 24 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 233 326 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 112 35 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 393 10 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 115 127 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 336 209 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 163 276 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 294 128 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 415 170 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 143 169 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 51 414 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 48 317 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 383 86 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 268 8 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 12 229 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 175 373 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 350 366 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 225 7 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 282 100 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 60 378 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 20 226 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 26 85 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 314 98 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 461 7 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 220 347 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 376 241 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 404 455 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 277 198 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 244 312 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 376 180 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 283 421 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 277 173 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 487 281 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 199 129 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 14 86 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 138 432 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 142 454 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 361 474 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 473 167 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 475 251 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 342 379 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 166 429 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 155 380 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 490 462 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 339 242 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 101 235 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 492 392 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 216 233 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 356 198 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 452 316 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 243 393 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 463 351 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 162 372 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 272 188 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 273 319 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 162 27 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 1 328 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 473 96 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 304 480 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 94 286 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 323 242 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 97 218 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 352 318 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 236 52 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 398 471 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 136 275 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 132 375 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 188 12 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 14 124 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 110 197 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 255 357 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 226 380 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 453 358 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 375 442 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 85 105 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 470 105 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 344 479 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 172 450 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 453 31 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 191 147 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 410 121 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 122 30 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 356 168 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 409 446 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 348 164 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 480 265 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 476 143 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 436 459 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 362 231 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 307 151 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 263 316 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 475 14 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 465 292 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 64 8 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 209 411 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 450 484 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 280 14 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 260 92 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 434 161 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 128 254 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 427 36 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 176 5 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 492 340 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 433 28 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 357 319 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 121 215 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 268 1 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 452 100 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 84 97 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 149 17 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 285 127 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 429 242 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 348 164 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 383 118 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 324 6 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 380 444 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 141 160 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 430 361 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 305 407 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 399 128 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 174 7 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 432 39 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 229 437 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 145 322 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 472 225 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 476 312 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 185 350 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 257 117 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 467 490 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 82 23 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 10 368 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 488 41 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 356 349 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 461 450 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 175 66 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 138 93 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 239 470 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 159 476 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 22 344 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 112 460 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 484 374 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 465 238 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 51 120 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 386 233 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 371 148 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 51 381 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 259 49 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 290 143 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 289 50 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 432 140 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 175 363 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 364 394 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 348 171 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 204 73 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 298 247 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 384 419 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 194 159 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 315 61 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 477 227 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 250 112 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 494 485 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 410 329 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 473 152 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 157 95 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 461 89 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 345 479 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 250 150 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 81 319 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 385 385 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 458 256 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 448 268 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 158 446 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 414 423 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 343 295 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 26 197 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 353 460 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 213 328 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 293 454 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 305 412 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 94 161 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 431 60 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 467 195 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 417 252 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 118 133 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 382 380 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 175 210 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 438 172 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 226 266 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 27 290 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 374 62 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 393 135 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 99 385 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 112 360 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 300 83 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 465 205 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 144 152 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 115 406 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 274 35 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 206 370 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 393 12 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 149 459 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 396 334 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 238 203 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 169 207 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 396 51 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 52 363 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 62 230 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 382 139 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 374 401 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 30 85 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 474 332 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 104 17 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 108 399 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 429 292 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 111 166 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 369 478 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 225 494 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 119 497 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 106 372 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 435 177 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 386 194 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 157 346 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 465 414 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 290 75 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 198 117 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 438 149 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 105 471 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 183 361 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 203 126 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 430 203 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 7 59 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 163 137 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 443 325 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 490 464 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 439 229 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 199 121 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 454 238 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 151 245 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 358 291 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 115 305 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 287 330 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 182 211 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 139 478 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 364 99 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 331 350 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 397 320 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 309 363 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 473 454 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 411 491 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 174 435 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 319 93 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 388 297 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 320 416 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 58 279 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 432 444 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 320 74 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 471 202 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 425 161 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 145 276 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 261 150 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 429 217 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 119 109 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 487 428 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 226 220 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 104 254 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 16 227 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 38 343 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 325 245 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 238 185 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 278 419 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 384 468 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 112 499 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 31 69 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 212 397 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 26 406 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 1 492 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 67 302 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 77 451 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 25 61 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 205 145 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 298 386 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 115 125 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 282 317 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 285 428 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 489 236 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 463 35 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 396 12 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 368 91 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 23 40 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 348 163 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 232 78 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 442 215 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 264 330 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 193 479 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 296 293 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 7 10 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 43 78 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 402 275 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 106 385 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 80 107 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 6 167 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 192 497 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 17 111 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 226 463 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 490 249 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 8 432 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 148 170 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 443 342 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 459 240 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 113 499 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 228 424 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 462 459 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 332 390 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 259 179 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 468 295 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 64 499 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 241 183 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 316 258 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 277 102 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 329 379 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 200 123 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 149 63 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 290 436 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 264 495 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 85 3 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 113 272 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 271 101 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 162 383 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 98 153 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 482 366 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 202 41 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 42 148 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 34 409 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 220 430 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 457 254 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 103 183 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 241 206 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 49 229 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 243 353 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 104 330 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 450 77 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 384 483 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 346 310 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 346 96 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 117 42 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 206 28 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 380 293 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 214 316 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 351 247 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 260 157 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 197 201 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 456 81 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 166 318 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 388 290 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 142 228 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 298 60 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 466 429 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 436 356 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 457 255 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 428 37 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 279 101 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 383 107 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 187 455 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 33 373 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 106 1 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 306 493 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 314 420 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 35 425 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 128 366 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 104 90 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 470 54 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 451 49 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 62 443 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 331 470 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 140 354 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 483 352 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 44 49 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 192 370 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 85 114 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 402 411 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 84 490 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 208 377 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 412 345 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 206 349 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 247 111 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 389 464 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 276 181 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 51 67 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 141 140 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 479 346 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 353 491 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 468 79 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 414 288 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 447 398 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 322 419 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 430 348 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 100 160 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 482 43 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 485 466 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 492 148 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 233 384 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 361 143 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 44 369 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 146 70 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 424 464 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 22 350 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 291 335 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 56 287 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 358 373 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 307 323 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 311 92 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 447 493 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 157 100 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 97 100 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 433 367 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 212 209 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 143 454 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 456 352 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 273 273 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 34 397 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 350 451 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 441 72 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 279 34 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 177 99 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 492 283 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 273 489 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 434 391 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 484 322 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 73 294 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 480 89 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 270 306 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 85 361 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 403 138 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 66 255 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 263 267 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 358 479 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 14 338 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 298 392 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 275 239 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 241 400 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 172 69 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 90 184 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 293 130 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 92 79 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 355 430 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 155 408 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 114 95 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 200 343 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 334 310 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 163 384 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 125 289 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 167 158 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 24 196 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 158 32 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 194 175 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 89 140 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 272 314 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 143 105 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 150 293 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 393 335 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 138 393 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 475 322 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 163 321 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 228 386 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 192 80 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 256 226 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 221 204 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 393 77 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 465 269 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 269 73 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 26 329 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 53 453 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 390 58 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 166 300 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 322 356 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 457 459 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 437 362 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 40 96 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 301 215 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 150 271 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 433 317 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 483 318 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 276 487 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 414 362 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 428 70 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 221 62 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 27 287 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 137 396 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 395 192 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 429 451 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 81 274 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 162 411 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 379 414 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 463 409 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 125 350 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 484 121 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 263 152 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 381 240 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 410 395 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 246 202 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 380 434 2 2 ******
+FAIL: Program did not produce proper result... Output was:
+expected: 1302
+total: 1254
+
+****** Testing ./boundedBuffer 395 220 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 21 264 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 167 425 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 448 273 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 310 442 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 388 212 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 371 491 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 255 214 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 95 177 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 136 22 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 457 58 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 408 102 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 322 297 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 9 131 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 93 396 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 278 178 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 161 387 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 243 324 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 268 266 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 290 390 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 261 6 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 260 79 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 243 170 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 208 324 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 378 338 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 299 68 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 399 308 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 217 401 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 419 341 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 496 200 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 433 494 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 268 365 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 156 98 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 235 309 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 88 175 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 384 180 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 387 122 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 186 182 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 424 174 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 85 68 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 411 406 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 244 284 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 71 46 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 18 110 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 86 56 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 197 394 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 215 181 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 219 110 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 350 483 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 409 159 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 411 223 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 323 221 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 6 397 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 319 308 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 440 315 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 258 264 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 420 116 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 51 494 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 131 248 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 466 209 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 372 4 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 11 116 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 318 173 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 227 331 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 14 84 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 128 218 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 243 306 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 17 192 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 248 22 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 296 256 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 467 419 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 17 112 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 68 26 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 338 268 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 276 31 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 283 280 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 119 488 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 41 23 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 450 449 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 91 415 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 85 321 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 351 112 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 425 419 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 496 183 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 63 309 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 455 285 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 361 388 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 244 393 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 281 87 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 468 317 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 343 58 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 264 397 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 368 367 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 187 250 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 386 347 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 481 114 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 365 326 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 105 395 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 375 414 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 82 412 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 149 281 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 258 123 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 310 486 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 445 397 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 257 227 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 195 338 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 100 353 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 376 257 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 285 235 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 134 214 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 380 139 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 243 21 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 388 389 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 270 194 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 82 14 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 28 171 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 321 217 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 50 281 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 238 128 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 382 45 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 111 422 5 6 ******
+FAIL: Program did not produce proper result... Output was:
+expected: 6330
+total: 6329
+
+****** Testing ./boundedBuffer 46 188 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 40 489 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 340 269 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 291 396 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 260 343 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 321 47 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 10 118 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 452 261 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 211 366 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 282 36 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 363 170 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 395 462 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 405 84 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 343 270 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 363 51 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 178 293 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 232 136 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 31 53 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 433 16 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 319 212 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 236 286 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 143 137 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 200 397 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 152 113 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 92 26 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 10 487 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 279 164 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 148 260 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 234 83 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 231 44 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 344 333 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 34 28 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 455 338 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 460 191 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 334 330 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 182 163 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 392 164 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 126 178 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 263 288 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 118 408 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 296 98 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 455 349 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 345 56 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 474 32 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 160 444 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 90 172 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 102 237 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 108 92 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 399 412 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 370 318 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 158 464 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 202 102 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 336 282 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 407 162 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 96 165 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 185 199 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 484 72 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 131 440 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 247 346 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 201 331 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 84 101 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 29 282 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 204 293 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 163 356 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 413 187 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 80 290 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 398 80 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 282 249 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 447 495 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 342 189 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 341 327 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 253 304 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 392 229 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 39 320 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 104 320 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 16 166 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 268 405 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 1 427 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 190 179 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 17 147 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 493 373 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 43 342 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 371 455 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 277 209 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 354 69 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 143 132 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 20 303 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 375 129 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 320 61 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 250 217 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 327 170 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 216 483 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 317 239 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 236 42 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 299 282 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 20 28 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 218 385 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 213 108 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 399 101 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 300 354 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 417 95 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 162 277 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 464 37 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 263 440 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 489 439 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 198 262 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 295 243 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 190 67 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 357 476 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 416 255 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 475 98 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 112 110 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 127 141 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 168 74 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 417 60 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 65 85 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 108 241 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 303 352 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 432 486 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 494 470 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 122 32 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 406 340 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 446 168 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 339 135 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 270 336 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 443 177 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 337 53 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 331 146 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 336 385 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 330 169 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 156 323 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 467 287 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 449 129 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 173 237 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 407 255 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 257 429 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 457 439 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 216 262 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 94 272 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 375 303 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 1 99 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 9 408 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 305 46 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 380 405 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 258 226 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 440 285 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 286 471 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 246 471 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 407 139 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 454 229 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 480 348 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 151 179 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 196 161 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 230 408 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 48 496 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 169 31 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 166 364 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 90 127 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 358 224 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 40 221 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 404 330 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 94 484 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 375 465 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 25 356 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 228 414 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 72 429 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 76 364 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 338 495 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 308 276 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 96 309 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 317 398 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 116 128 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 225 140 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 229 434 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 173 1 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 260 181 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 159 397 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 62 21 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 477 355 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 221 198 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 184 460 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 441 497 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 465 385 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 172 29 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 184 411 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 36 47 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 497 482 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 245 352 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 160 20 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 229 236 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 235 185 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 187 18 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 367 266 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 464 393 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 183 37 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 82 352 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 432 268 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 260 334 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 77 118 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 14 304 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 138 86 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 374 180 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 44 108 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 257 240 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 359 326 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 154 441 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 133 16 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 276 191 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 181 55 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 190 468 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 391 180 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 424 443 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 427 285 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 32 273 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 132 94 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 63 386 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 106 464 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 492 231 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 357 350 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 162 32 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 316 302 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 282 177 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 202 392 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 106 133 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 408 292 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 491 368 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 96 491 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 337 109 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 47 92 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 400 75 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 246 347 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 6 386 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 212 283 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 424 24 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 387 410 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 194 393 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 233 440 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 287 216 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 257 32 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 413 34 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 182 9 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 208 177 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 469 328 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 20 372 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 466 1 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 263 75 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 267 48 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 468 281 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 162 259 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 404 452 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 80 209 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 98 209 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 201 469 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 324 418 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 214 31 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 263 216 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 271 496 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 356 83 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 103 68 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 447 456 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 41 389 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 340 48 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 43 170 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 377 299 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 284 304 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 230 457 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 413 312 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 474 47 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 414 61 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 112 164 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 448 226 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 228 80 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 64 463 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 109 297 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 341 484 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 5 189 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 365 238 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 16 57 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 130 273 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 131 244 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 342 61 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 467 64 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 149 120 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 418 43 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 36 477 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 51 318 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 284 234 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 294 158 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 313 237 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 410 174 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 103 204 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 330 308 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 385 364 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 257 462 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 30 499 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 416 20 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 253 376 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 215 441 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 405 377 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 498 350 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 47 324 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 82 194 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 64 455 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 481 203 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 316 241 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 274 440 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 421 463 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 358 324 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 32 434 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 223 34 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 208 431 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 344 435 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 309 7 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 376 386 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 23 176 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 28 190 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 153 142 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 126 133 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 95 238 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 472 181 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 201 260 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 401 9 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 94 79 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 155 488 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 76 333 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 35 213 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 469 5 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 306 257 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 108 129 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 321 31 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 242 480 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 333 288 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 206 452 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 267 394 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 82 277 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 9 364 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 191 402 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 186 460 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 358 373 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 389 76 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 278 71 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 476 105 6 2 ******
+PASS
+
+****** Testing ./boundedBuffer 91 326 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 474 452 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 433 483 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 401 454 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 163 182 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 97 262 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 222 283 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 165 28 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 187 349 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 84 434 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 330 323 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 153 477 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 387 183 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 449 189 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 270 251 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 190 329 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 368 226 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 273 217 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 149 362 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 231 186 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 142 292 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 156 214 3 4 ******
+PASS
+
+****** Testing ./boundedBuffer 449 397 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 329 190 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 297 289 1 5 ******
+PASS
+
+****** Testing ./boundedBuffer 121 10 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 220 230 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 256 359 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 79 131 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 15 167 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 81 1 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 53 322 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 276 151 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 91 342 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 446 450 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 331 423 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 473 331 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 273 477 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 290 109 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 42 409 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 102 223 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 20 177 2 2 ******
+PASS
+
+****** Testing ./boundedBuffer 480 141 4 4 ******
+PASS
+
+****** Testing ./boundedBuffer 400 360 6 1 ******
+PASS
+
+****** Testing ./boundedBuffer 171 389 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 490 498 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 62 219 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 42 131 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 248 187 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 332 329 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 63 135 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 136 338 2 5 ******
+PASS
+
+****** Testing ./boundedBuffer 481 282 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 31 333 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 154 58 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 302 485 3 2 ******
+PASS
+
+****** Testing ./boundedBuffer 366 359 4 1 ******
+PASS
+
+****** Testing ./boundedBuffer 176 377 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 416 470 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 26 170 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 35 253 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 272 216 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 227 334 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 202 122 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 467 156 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 236 285 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 201 327 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 76 471 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 437 79 2 6 ******
+PASS
+
+****** Testing ./boundedBuffer 310 411 3 3 ******
+PASS
+
+****** Testing ./boundedBuffer 267 53 5 2 ******
+PASS
+
+****** Testing ./boundedBuffer 493 193 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 382 159 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 286 344 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 489 387 6 6 ******
+PASS
+
+****** Testing ./boundedBuffer 235 8 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 49 306 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 234 44 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 67 222 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 75 362 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 467 282 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 377 463 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 457 12 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 93 480 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 349 234 1 2 ******
+PASS
+
+****** Testing ./boundedBuffer 432 191 4 3 ******
+PASS
+
+****** Testing ./boundedBuffer 284 12 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 137 360 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 271 24 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 432 273 5 6 ******
+PASS
+
+****** Testing ./boundedBuffer 458 340 6 5 ******
+PASS
+
+****** Testing ./boundedBuffer 230 61 6 3 ******
+PASS
+
+****** Testing ./boundedBuffer 10 155 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 295 324 3 6 ******
+PASS
+
+****** Testing ./boundedBuffer 196 181 5 5 ******
+PASS
+
+****** Testing ./boundedBuffer 79 339 1 4 ******
+PASS
+
+****** Testing ./boundedBuffer 21 181 4 5 ******
+PASS
+
+****** Testing ./boundedBuffer 12 242 1 3 ******
+PASS
+
+****** Testing ./boundedBuffer 478 482 4 2 ******
+PASS
+
+****** Testing ./boundedBuffer 175 21 6 4 ******
+PASS
+
+****** Testing ./boundedBuffer 77 140 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 274 19 1 6 ******
+PASS
+
+****** Testing ./boundedBuffer 405 367 4 6 ******
+PASS
+
+****** Testing ./boundedBuffer 247 2 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 395 251 5 3 ******
+PASS
+
+****** Testing ./boundedBuffer 436 412 3 5 ******
+PASS
+
+****** Testing ./boundedBuffer 327 294 2 1 ******
+PASS
+
+****** Testing ./boundedBuffer 84 440 5 4 ******
+PASS
+
+****** Testing ./boundedBuffer 450 362 2 4 ******
+PASS
+
+****** Testing ./boundedBuffer 18 228 1 1 ******
+PASS
+
+****** Testing ./boundedBuffer 484 179 2 3 ******
+PASS
+
+****** Testing ./boundedBuffer 428 310 5 1 ******
+PASS
+
+****** Testing ./boundedBuffer 410 420 3 1 ******
+PASS
+
+****** Testing ./boundedBuffer 170 85 2 1 ******
+PASS
+
+Test completed with 2492/2500 passed and 8/2500 failed.
